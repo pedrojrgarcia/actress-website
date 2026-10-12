@@ -523,6 +523,14 @@ main .hero {
   color: var(--muted);
 }
 
+.stats dt,
+.skills dt,
+.stats dd,
+.skills dd {
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
 .stats dd,
 .skills dd {
   margin: 0;
@@ -531,7 +539,7 @@ main .hero {
 
 @media (max-width: 768px) {
   .stats {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr ));
   }
 }
 
