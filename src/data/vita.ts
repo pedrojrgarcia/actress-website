@@ -68,6 +68,7 @@ export const vita: Record<'training' | 'film' | 'theater', VitaEntry[]> = {
       part: 'supporting',
       director: 'Alejandro Torrijos',
       place: '¿Para qué? Producciones',
+      image: { file: 'calma-chicha.webp', copyright: 'Alejandro Torrijos' },
     },
   ],
 
